@@ -74,6 +74,7 @@
 }
 
 #clear-btn{
+    align-items: center;
     background: rgb(198, 63, 5);
     color: #fff;
     display: none;
