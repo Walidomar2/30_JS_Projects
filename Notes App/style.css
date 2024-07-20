@@ -72,3 +72,9 @@
     right: 15px;
     cursor: pointer;
 }
+
+#clear-btn{
+    background: rgb(198, 63, 5);
+    color: #fff;
+    display: none;
+}
