@@ -14,23 +14,23 @@
     padding-left: 10%;
 }
 
-.container h1{
+.container h1 {
     display: flex;
     align-items: center;
     font-size: 35px;
     font-weight: 600;
 }
 
-.container h1 img{
+.container h1 img {
     width: 60px;
 }
 
-.container button img{
+.container button img {
     width: 25px;
     margin-right: 8px;
 }
 
-.container button{
+.container button {
     display: flex;
     align-items: center;
     background: linear-gradient(#9418fd, #571094);
@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-.input-box{
+.input-box {
     position: relative;
     width: 100%;
     max-width: 500px;
@@ -57,7 +57,7 @@
     border-radius: 5px;
 }
 
-.input-box img{
+.input-box img {
     width: 25px;
     position: absolute;
     bottom: 15px;
@@ -65,7 +65,7 @@
     cursor: pointer;
 }
 
-.input-box img:hover{
+.input-box img:hover {
     width: 30px;
     position: absolute;
     bottom: 15px;
