@@ -8,6 +8,12 @@ async function getQuote(url){
 
     quoteElement.innerHTML = data.content;
     authorElement.innerHTML = data.author;
-
 }
 
+function post(){
+    window.open("https://twitter.com/intent/tweet?text=" + quoteElement.innerHTML +
+         "%0Aby " + authorElement.innerHTML
+        ,"post window", "width=600,height=300");
+}
+
+getQuote(apiUrl);
